@@ -29,7 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 5px;
+    gap: 3px;
 }
 
 .conteiner header div {
@@ -37,7 +37,7 @@ header {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 3px;
 }
 
 #nameuser {
@@ -100,4 +100,27 @@ button:hover {
 #alert_emptyInput {
     color: red;
     opacity: 0;
+}
+
+@media screen and (max-width: 767px)  {
+    .conteiner {
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    #nameuser {
+        font-size: 14px;
+    }
+
+    .conteiner header img {
+        width: 40px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
 }

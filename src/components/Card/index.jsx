@@ -4,7 +4,7 @@ export function Card({name, time}) {
 
     return (
         <div className="card">
-            <strong>{name}</strong>
+            <strong class="namePerson">{name}</strong>
             <small>{time}</small>
         </div>
     )
